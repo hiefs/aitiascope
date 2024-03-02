@@ -22,7 +22,7 @@ body:
   attributes:
     label: Server
     description: What server is this character in?
-    multiple: true
+    multiple: false
     options:
     - Adamantoise
     - Balmung
