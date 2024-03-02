@@ -1,3 +1,4 @@
+body:
 - type: input
   attributes:
     label: Character Name
