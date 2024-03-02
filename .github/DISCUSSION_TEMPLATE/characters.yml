@@ -1,0 +1,126 @@
+- type: input
+  attributes:
+    label: Character Name
+    description: First and Last in game name.
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Data Center
+    description: Data Center?
+    multiple: false
+    options:
+    - Aether
+    - Crystal
+    - Dynamis
+    - Primal
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Server
+    description: Server?
+    multiple: false
+    options:
+    - Adamantoise
+    - Balmung
+    - Behemonth
+    - Brynhildr
+    - Cactuar
+    - Coeurl
+    - Diabolos
+    - Excalibur
+    - Exodus
+    - Faerie
+    - Famfrit
+    - Gilgamesh
+    - Goblin
+    - Halicarnassus
+    - Hyperion
+    - Jenova
+    - Lamia
+    - Leviathan
+    - Maduin
+    - Malboro
+    - Marilith
+    - Mateus
+    - Midgardsomr
+    - seraph
+    - Siren
+    - Ultros
+    - Zalera
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Race
+    description: Race?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Clan
+    description: Clan?
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: gender
+    description: Gender?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: pronouns
+    description: Pronouns?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: age
+    description: Age?
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: occupation
+    description: Occupation or Job?
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Hooks
+    description: Hooks for your character
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: Carrd/Link
+    description: Carrd or character page
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: description
+    description: A description of your character or any blub you would like to add.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Types of Roleplay
+    description: The types of roleplay you're interested in doing with this character.
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: Contact
+    description: Are you okay with being contacted?
+    options:
+      - label: I am open to contact
+      - label: I am not open to contact
+- type: textarea
+  attributes:
+    label: Contact Details
+    description: The best ways to contact you.
+  validations:
+    required: false
