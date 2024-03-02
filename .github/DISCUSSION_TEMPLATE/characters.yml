@@ -3,13 +3,13 @@ body:
 - type: input
   attributes:
     label: Character Name
-    description: First and Last in game name.
+    description: The first and last name of your character.
   validations:
     required: true
 - type: dropdown
   attributes:
     label: Data Center
-    description: Data Center?
+    description: What data center is this character in?
     multiple: false
     options:
     - Aether
@@ -21,8 +21,8 @@ body:
 - type: dropdown
   attributes:
     label: Server
-    description: Server?
-    multiple: false
+    description: What server is this character in?
+    multiple: true
     options:
     - Adamantoise
     - Balmung
@@ -56,61 +56,61 @@ body:
 - type: input
   attributes:
     label: Race
-    description: Race?
+    description: What race is your character?
   validations:
     required: true
 - type: input
   attributes:
     label: Clan
-    description: Clan?
+    description: What clan is your character?
   validations:
     required: false
 - type: input
   attributes:
-    label: gender
-    description: Gender?
+    label: Gender
+    description: What gender is your character
   validations:
     required: true
 - type: input
   attributes:
-    label: pronouns
-    description: Pronouns?
+    label: Pronouns
+    description: What pronouns does your character use?
   validations:
     required: true
 - type: input
   attributes:
-    label: age
-    description: Age?
+    label: Age
+    description: How old in your character?
   validations:
     required: false
 - type: input
   attributes:
-    label: occupation
-    description: Occupation or Job?
+    label: Occupation
+    description: What occupation or job does your character have?
   validations:
     required: false
 - type: textarea
   attributes:
+    label: Description
+    description: A description of your character or any blurb you would like to share.
+  validations:
+    required: true
+- type: textarea
+  attributes:
     label: Hooks
-    description: Hooks for your character
+    description: Any hooks for your character that you would like to share.
   validations:
     required: false
 - type: input
   attributes:
     label: Carrd/Link
-    description: Carrd or character page
+    description: Carrd, Character page or any relevant link.
   validations:
     required: false
 - type: textarea
   attributes:
-    label: description
-    description: A description of your character or any blub you would like to add.
-  validations:
-    required: true
-- type: textarea
-  attributes:
     label: Types of Roleplay
-    description: The types of roleplay you're interested in doing with this character.
+    description: The types of roleplay you are interested in doing with this character.
   validations:
     required: true
 - type: checkboxes
