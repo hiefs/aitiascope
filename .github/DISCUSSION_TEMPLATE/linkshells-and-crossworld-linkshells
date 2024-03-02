@@ -1,0 +1,61 @@
+title: "[DATACENTER][SERVER] Linkshell or Crossworld Linkshell Title"
+body:
+- type: dropdown
+  attributes:
+    label: Type
+    description: Is this a Linkshell or Crossworld Linkshell
+    multiple: false
+    options:
+    - Linkshell
+    - Crossworld Linkshell
+- type: dropdown
+  attributes:
+    label: Data Center
+    description: What data center is this Linkshell/CWLS in?
+    multiple: false
+    options:
+    - Aether
+    - Crystal
+    - Dynamis
+    - Primal
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Server
+    description: What server is this Linkshell/CWLS in?
+    multiple: false
+    options:
+    - Adamantoise
+    - Balmung
+    - Behemonth
+    - Brynhildr
+    - Cactuar
+    - Coeurl
+    - Diabolos
+    - Excalibur
+    - Exodus
+    - Faerie
+    - Famfrit
+    - Gilgamesh
+    - Goblin
+    - Halicarnassus
+    - Hyperion
+    - Jenova
+    - Lamia
+    - Leviathan
+    - Maduin
+    - Malboro
+    - Marilith
+    - Mateus
+    - Midgardsomr
+    - seraph
+    - Siren
+    - Ultros
+    - Zalera
+- type: textarea
+  attributes:
+    label: Description
+    description: Decription or purpose for the linkshell or CWLS
+  validations:
+    required: true

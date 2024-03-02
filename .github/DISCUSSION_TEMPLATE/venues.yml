@@ -1,0 +1,50 @@
+title: "[DATACENTER][SERVER] Venue Title"
+body:
+- type: textarea
+  attributes:
+    label: Description
+    description: Description of your venue.
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: Occurence
+    description: What occurances are you open?
+    options:
+      - label: Daily
+      - label: Weekly
+      - label: Trimensual
+      - label: Bi-weekly
+      - label: Monthly
+      - label: Yearly
+      - label: other
+- type: checkboxes
+  attributes:
+    label: Days of Operation
+    description: what days are you open?
+    options:
+      - label: Monday
+      - label: Tuesday
+      - label: Wednesday
+      - label: Thursday
+      - label: Friday
+      - label: Saturday
+      - label: Sunday
+- type: textarea
+  attributes:
+    label: Times of Operation
+    description: What times are you open? Be sure to specify Timezone and if the times are different on particular days.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Link
+    description: Link or url to your venue's informational page.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Additional Details
+    description: anything you want to include for clarification for any of the details above.
+  validations:
+    required: false 

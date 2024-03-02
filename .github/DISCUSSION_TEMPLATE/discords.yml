@@ -1,0 +1,14 @@
+title: "Roleplay Discord Server Title"
+body:
+- type: textarea
+  attributes:
+    label: Description
+    description: A description if your discord server.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Join Link
+    description: Link or url to join the discord server
+  validations:
+    required: false

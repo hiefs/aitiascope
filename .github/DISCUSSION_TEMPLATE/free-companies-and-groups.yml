@@ -1,0 +1,53 @@
+title: "Free Company or Group Name"
+body:
+- type: dropdown
+  attributes:
+    label: Type
+    description: What type of group is this?
+    multiple: false
+    options:
+    - Free Company
+    - Discord Group
+    - Linkshell Group
+    - CWLS Group
+- type: textarea
+  attributes:
+    label: Description
+    description: A description if your discord server.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Themes
+    description: What themes does your group typically roleplay?
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Communiation
+    description: What is your primary form of cumminication?
+    multiple: true
+    options:
+    - In-game
+    - Discord 
+    - Linkshell 
+    - CWLS
+    - Other
+- type: input
+  attributes:
+    label: Other Communitcation
+    description: If you picked other, what is your form of communication?
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: Link/Url
+    description: Any relevant informational links such as your carrd or tumblr
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: How to apply?
+    description: How can someone apply to your group or Free Company? Is there someone that can contact, or can they reply to this discussion?
+  validations:
+    required: true
