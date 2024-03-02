@@ -117,6 +117,7 @@ body:
   attributes:
     label: Contact
     description: Are you okay with being contacted?
+    multiple: false
     options:
       - label: I am open to contact
       - label: I am not open to contact
