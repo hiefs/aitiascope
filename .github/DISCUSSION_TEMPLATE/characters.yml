@@ -1,5 +1,11 @@
 title: "[Datacenter/Server] Your Character Name"
 body:
+- type: textares
+  attributes:
+    label: Image
+    description: Add an image of your character.
+  validations:
+    required: true
 - type: input
   attributes:
     label: Character Name
@@ -12,10 +18,10 @@ body:
     description: What data center is this character in?
     multiple: false
     options:
-    - Aether
-    - Crystal
-    - Dynamis
-    - Primal
+      - Aether
+      - Crystal
+      - Dynamis
+      - Primal
   validations:
     required: true
 - type: dropdown
@@ -24,33 +30,33 @@ body:
     description: What server is this character in?
     multiple: false
     options:
-    - Adamantoise
-    - Balmung
-    - Behemonth
-    - Brynhildr
-    - Cactuar
-    - Coeurl
-    - Diabolos
-    - Excalibur
-    - Exodus
-    - Faerie
-    - Famfrit
-    - Gilgamesh
-    - Goblin
-    - Halicarnassus
-    - Hyperion
-    - Jenova
-    - Lamia
-    - Leviathan
-    - Maduin
-    - Malboro
-    - Marilith
-    - Mateus
-    - Midgardsomr
-    - seraph
-    - Siren
-    - Ultros
-    - Zalera
+      - Adamantoise
+      - Balmung
+      - Behemonth
+      - Brynhildr
+      - Cactuar
+      - Coeurl
+      - Diabolos
+      - Excalibur
+      - Exodus
+      - Faerie
+      - Famfrit
+      - Gilgamesh
+      - Goblin
+      - Halicarnassus
+      - Hyperion
+      - Jenova
+      - Lamia
+      - Leviathan
+      - Maduin
+      - Malboro
+      - Marilith
+      - Mateus
+      - Midgardsomr
+      - seraph
+      - Siren
+      - Ultros
+      - Zalera
   validations:
     required: true
 - type: input
@@ -124,7 +130,3 @@ body:
     label: Contact Details
     description: The best ways to contact you.
   validations:
-    required: false
-- type: markdown
-  attributes:
-    value: Thanks for taking the time to start a new discussion and post your character. Feel free to post images as a reply to your new discussion post.
